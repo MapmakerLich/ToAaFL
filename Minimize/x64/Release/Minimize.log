@@ -1,0 +1,41 @@
+﻿  pch.cpp
+  MealyMachine.cpp
+c:\users\admin\desktop\таифя\автомат\minimize\minimize\mealymachine.cpp(112): warning C4267: аргумент: преобразование из "size_t" в "const int"; возможна потеря данных
+c:\users\admin\desktop\таифя\автомат\minimize\minimize\mealymachine.cpp(156): warning C4267: =: преобразование из "size_t" в "_Ty"; возможна потеря данных
+          with
+          [
+              _Ty=EquivalenceClass
+          ]
+c:\users\admin\desktop\таифя\автомат\minimize\minimize\mealymachine.cpp(165): warning C4267: =: преобразование из "size_t" в "_Ty"; возможна потеря данных
+          with
+          [
+              _Ty=EquivalenceClass
+          ]
+  Minimize.cpp
+  MinimizedMachine.cpp
+c:\users\admin\desktop\таифя\автомат\minimize\minimize\minimizedmachine.cpp(32): warning C4267: =: преобразование из "size_t" в "_Ty"; возможна потеря данных
+          with
+          [
+              _Ty=EquivalenceClass
+          ]
+c:\users\admin\desktop\таифя\автомат\minimize\minimize\minimizedmachine.cpp(41): warning C4267: =: преобразование из "size_t" в "_Ty"; возможна потеря данных
+          with
+          [
+              _Ty=EquivalenceClass
+          ]
+  MooreMachine.cpp
+c:\users\admin\desktop\таифя\автомат\minimize\minimize\mooremachine.cpp(120): warning C4267: аргумент: преобразование из "size_t" в "const int"; возможна потеря данных
+c:\users\admin\desktop\таифя\автомат\minimize\minimize\mooremachine.cpp(165): warning C4267: =: преобразование из "size_t" в "_Ty"; возможна потеря данных
+          with
+          [
+              _Ty=int
+          ]
+c:\users\admin\desktop\таифя\автомат\minimize\minimize\mooremachine.cpp(174): warning C4267: =: преобразование из "size_t" в "_Ty"; возможна потеря данных
+          with
+          [
+              _Ty=int
+          ]
+  Создание кода
+  All 4180 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  Minimize.vcxproj -> C:\Users\Admin\Desktop\ТАиФЯ\автомат\Minimize\x64\Release\Minimize.exe
