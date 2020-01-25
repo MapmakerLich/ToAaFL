@@ -1,0 +1,157 @@
+﻿  pch.cpp
+  Determinator.cpp
+c:\users\admin\desktop\таифя\автомат\automat\determinator\determinator\determinator.cpp(87): warning C4267: аргумент: преобразование из "size_t" в "const int"; возможна потеря данных
+c:\users\admin\desktop\таифя\автомат\automat\determinator\determinator\determinator.cpp(93): warning C4267: аргумент: преобразование из "size_t" в "const int"; возможна потеря данных
+c:\users\admin\desktop\таифя\автомат\automat\determinator\determinator\determinator.cpp(120): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+c:\users\admin\desktop\таифя\автомат\automat\determinator\determinator\determinator.cpp(126): warning C4267: аргумент: преобразование из "size_t" в "const int"; возможна потеря данных
+c:\users\admin\desktop\таифя\автомат\automat\determinator\determinator\determinator.cpp(147): warning C4267: =: преобразование из "size_t" в "_Ty"; возможна потеря данных
+          with
+          [
+              _Ty=int
+          ]
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\utility(172): warning C4244: инициализация: преобразование "_Ty" в "_Ty1", возможна потеря данных
+          with
+          [
+              _Ty=unsigned __int64
+          ]
+          and
+          [
+              _Ty1=int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xmemory0(879): note: выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<const _Kty,_Ty>::pair<unsigned __int64,std::set<_Kty,std::less<int>,std::allocator<int>>&,0>(_Other1 &&,_Other2) noexcept(false)"
+          with
+          [
+              _Kty=int,
+              _Ty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Other1=unsigned __int64,
+              _Other2=std::set<int,std::less<int>,std::allocator<int>> &
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xmemory0(881): note: выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<const _Kty,_Ty>::pair<unsigned __int64,std::set<_Kty,std::less<int>,std::allocator<int>>&,0>(_Other1 &&,_Other2) noexcept(false)"
+          with
+          [
+              _Kty=int,
+              _Ty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Other1=unsigned __int64,
+              _Other2=std::set<int,std::less<int>,std::allocator<int>> &
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xtree(976): note: выполняется компиляция ссылки на экземпляр шаблон функции "void std::_Default_allocator_traits<_Alloc>::construct<_Ty,unsigned __int64,std::set<int,std::less<int>,std::allocator<int>>&>(_Alloc &,_Objty *const ,unsigned __int64 &&,std::set<int,std::less<int>,std::allocator<int>> &)"
+          with
+          [
+              _Alloc=std::allocator<std::_Tree_node<std::pair<const int,std::set<int,std::less<int>,std::allocator<int>>>,std::_Default_allocator_traits<std::allocator<std::pair<const int,std::set<int,std::less<int>,std::allocator<int>>>>>::void_pointer>>,
+              _Ty=std::pair<const int,std::set<int,std::less<int>,std::allocator<int>>>,
+              _Objty=std::pair<const int,std::set<int,std::less<int>,std::allocator<int>>>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xtree(983): note: выполняется компиляция ссылки на экземпляр шаблон функции "void std::_Default_allocator_traits<_Alloc>::construct<_Ty,unsigned __int64,std::set<int,std::less<int>,std::allocator<int>>&>(_Alloc &,_Objty *const ,unsigned __int64 &&,std::set<int,std::less<int>,std::allocator<int>> &)"
+          with
+          [
+              _Alloc=std::allocator<std::_Tree_node<std::pair<const int,std::set<int,std::less<int>,std::allocator<int>>>,std::_Default_allocator_traits<std::allocator<std::pair<const int,std::set<int,std::less<int>,std::allocator<int>>>>>::void_pointer>>,
+              _Ty=std::pair<const int,std::set<int,std::less<int>,std::allocator<int>>>,
+              _Objty=std::pair<const int,std::set<int,std::less<int>,std::allocator<int>>>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xtree(1154): note: выполняется компиляция ссылки на экземпляр шаблон функции "std::_Tree_node<std::pair<const _Kty,_Ty>,std::_Default_allocator_traits<_Alloc>::void_pointer> *std::_Tree_comp_alloc<_Traits>::_Buynode<unsigned __int64,std::set<_Kty,std::less<int>,std::allocator<int>>&>(unsigned __int64 &&,std::set<_Kty,std::less<int>,std::allocator<int>> &)"
+          with
+          [
+              _Kty=int,
+              _Ty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Alloc=std::allocator<std::pair<const int,std::set<int,std::less<int>,std::allocator<int>>>>,
+              _Traits=std::_Tmap_traits<int,std::set<int,std::less<int>,std::allocator<int>>,std::less<int>,std::allocator<std::pair<const int,std::set<int,std::less<int>,std::allocator<int>>>>,false>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xtree(1155): note: выполняется компиляция ссылки на экземпляр шаблон функции "std::_Tree_node<std::pair<const _Kty,_Ty>,std::_Default_allocator_traits<_Alloc>::void_pointer> *std::_Tree_comp_alloc<_Traits>::_Buynode<unsigned __int64,std::set<_Kty,std::less<int>,std::allocator<int>>&>(unsigned __int64 &&,std::set<_Kty,std::less<int>,std::allocator<int>> &)"
+          with
+          [
+              _Kty=int,
+              _Ty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Alloc=std::allocator<std::pair<const int,std::set<int,std::less<int>,std::allocator<int>>>>,
+              _Traits=std::_Tmap_traits<int,std::set<int,std::less<int>,std::allocator<int>>,std::less<int>,std::allocator<std::pair<const int,std::set<int,std::less<int>,std::allocator<int>>>>,false>
+          ]
+  c:\users\admin\desktop\таифя\автомат\automat\determinator\determinator\determinator.cpp(149): note: выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<_Ty>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,std::set<_Kty,std::less<int>,std::allocator<int>>,_Pr,_Alloc,false>>::emplace<unsigned __int64,std::set<_Kty,_Pr,std::allocator<int>>&>(unsigned __int64 &&,std::set<_Kty,_Pr,std::allocator<int>> &)"
+          with
+          [
+              _Ty=std::pair<const int,std::set<int,std::less<int>,std::allocator<int>>>,
+              _Kty=int,
+              _Pr=std::less<int>,
+              _Alloc=std::allocator<std::pair<const int,std::set<int,std::less<int>,std::allocator<int>>>>
+          ]
+  c:\users\admin\desktop\таифя\автомат\automat\determinator\determinator\determinator.cpp(149): note: выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<_Ty>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,std::set<_Kty,std::less<int>,std::allocator<int>>,_Pr,_Alloc,false>>::emplace<unsigned __int64,std::set<_Kty,_Pr,std::allocator<int>>&>(unsigned __int64 &&,std::set<_Kty,_Pr,std::allocator<int>> &)"
+          with
+          [
+              _Ty=std::pair<const int,std::set<int,std::less<int>,std::allocator<int>>>,
+              _Kty=int,
+              _Pr=std::less<int>,
+              _Alloc=std::allocator<std::pair<const int,std::set<int,std::less<int>,std::allocator<int>>>>
+          ]
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\utility(173): warning C4244: инициализация: преобразование "_Ty" в "_Ty2", возможна потеря данных
+          with
+          [
+              _Ty=unsigned __int64
+          ]
+          and
+          [
+              _Ty2=int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xmemory0(879): note: выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<const _Kty,_Ty>::pair<std::set<int,std::less<_Ty>,std::allocator<_Ty>>&,unsigned __int64,0>(_Other1,_Other2 &&) noexcept(false)"
+          with
+          [
+              _Kty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Ty=int,
+              _Other1=std::set<int,std::less<int>,std::allocator<int>> &,
+              _Other2=unsigned __int64
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xmemory0(881): note: выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<const _Kty,_Ty>::pair<std::set<int,std::less<_Ty>,std::allocator<_Ty>>&,unsigned __int64,0>(_Other1,_Other2 &&) noexcept(false)"
+          with
+          [
+              _Kty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Ty=int,
+              _Other1=std::set<int,std::less<int>,std::allocator<int>> &,
+              _Other2=unsigned __int64
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xtree(976): note: выполняется компиляция ссылки на экземпляр шаблон функции "void std::_Default_allocator_traits<_Alloc>::construct<_Ty,std::set<int,std::less<int>,std::allocator<int>>&,unsigned __int64>(_Alloc &,_Objty *const ,std::set<int,std::less<int>,std::allocator<int>> &,unsigned __int64 &&)"
+          with
+          [
+              _Alloc=std::allocator<std::_Tree_node<std::pair<const std::set<int,std::less<int>,std::allocator<int>>,int>,std::_Default_allocator_traits<std::allocator<std::pair<const std::set<int,std::less<int>,std::allocator<int>>,int>>>::void_pointer>>,
+              _Ty=std::pair<const std::set<int,std::less<int>,std::allocator<int>>,int>,
+              _Objty=std::pair<const std::set<int,std::less<int>,std::allocator<int>>,int>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xtree(983): note: выполняется компиляция ссылки на экземпляр шаблон функции "void std::_Default_allocator_traits<_Alloc>::construct<_Ty,std::set<int,std::less<int>,std::allocator<int>>&,unsigned __int64>(_Alloc &,_Objty *const ,std::set<int,std::less<int>,std::allocator<int>> &,unsigned __int64 &&)"
+          with
+          [
+              _Alloc=std::allocator<std::_Tree_node<std::pair<const std::set<int,std::less<int>,std::allocator<int>>,int>,std::_Default_allocator_traits<std::allocator<std::pair<const std::set<int,std::less<int>,std::allocator<int>>,int>>>::void_pointer>>,
+              _Ty=std::pair<const std::set<int,std::less<int>,std::allocator<int>>,int>,
+              _Objty=std::pair<const std::set<int,std::less<int>,std::allocator<int>>,int>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xtree(1154): note: выполняется компиляция ссылки на экземпляр шаблон функции "std::_Tree_node<std::pair<const _Kty,_Ty>,std::_Default_allocator_traits<_Alloc>::void_pointer> *std::_Tree_comp_alloc<_Traits>::_Buynode<std::set<int,std::less<_Ty>,std::allocator<_Ty>>&,unsigned __int64>(std::set<int,std::less<_Ty>,std::allocator<_Ty>> &,unsigned __int64 &&)"
+          with
+          [
+              _Kty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Ty=int,
+              _Alloc=std::allocator<std::pair<const std::set<int,std::less<int>,std::allocator<int>>,int>>,
+              _Traits=std::_Tmap_traits<std::set<int,std::less<int>,std::allocator<int>>,int,std::less<std::set<int,std::less<int>,std::allocator<int>>>,std::allocator<std::pair<const std::set<int,std::less<int>,std::allocator<int>>,int>>,false>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xtree(1155): note: выполняется компиляция ссылки на экземпляр шаблон функции "std::_Tree_node<std::pair<const _Kty,_Ty>,std::_Default_allocator_traits<_Alloc>::void_pointer> *std::_Tree_comp_alloc<_Traits>::_Buynode<std::set<int,std::less<_Ty>,std::allocator<_Ty>>&,unsigned __int64>(std::set<int,std::less<_Ty>,std::allocator<_Ty>> &,unsigned __int64 &&)"
+          with
+          [
+              _Kty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Ty=int,
+              _Alloc=std::allocator<std::pair<const std::set<int,std::less<int>,std::allocator<int>>,int>>,
+              _Traits=std::_Tmap_traits<std::set<int,std::less<int>,std::allocator<int>>,int,std::less<std::set<int,std::less<int>,std::allocator<int>>>,std::allocator<std::pair<const std::set<int,std::less<int>,std::allocator<int>>,int>>,false>
+          ]
+  c:\users\admin\desktop\таифя\автомат\automat\determinator\determinator\determinator.cpp(150): note: выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<_Ty>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,int,_Pr,_Alloc,false>>::emplace<std::set<int,std::less<int>,std::allocator<int>>&,unsigned __int64>(std::set<int,std::less<int>,std::allocator<int>> &,unsigned __int64 &&)"
+          with
+          [
+              _Ty=std::pair<const std::set<int,std::less<int>,std::allocator<int>>,int>,
+              _Kty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::set<int,std::less<int>,std::allocator<int>>>,
+              _Alloc=std::allocator<std::pair<const std::set<int,std::less<int>,std::allocator<int>>,int>>
+          ]
+  c:\users\admin\desktop\таифя\автомат\automat\determinator\determinator\determinator.cpp(150): note: выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<_Ty>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,int,_Pr,_Alloc,false>>::emplace<std::set<int,std::less<int>,std::allocator<int>>&,unsigned __int64>(std::set<int,std::less<int>,std::allocator<int>> &,unsigned __int64 &&)"
+          with
+          [
+              _Ty=std::pair<const std::set<int,std::less<int>,std::allocator<int>>,int>,
+              _Kty=std::set<int,std::less<int>,std::allocator<int>>,
+              _Pr=std::less<std::set<int,std::less<int>,std::allocator<int>>>,
+              _Alloc=std::allocator<std::pair<const std::set<int,std::less<int>,std::allocator<int>>,int>>
+          ]
+  Создание кода
+  All 4307 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  Determinator.vcxproj -> C:\Users\Admin\Desktop\ТАиФЯ\автомат\Automat\Determinator\x64\Release\Determinator.exe
